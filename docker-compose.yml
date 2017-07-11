@@ -1,0 +1,7 @@
+version: '2'
+services:
+  consul:
+    image: consul
+    container_name: go-consul
+    ports:
+      - 8500:8500
